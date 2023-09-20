@@ -1,5 +1,6 @@
 import React from 'react';
 import {useLoaderData, useNavigation} from "react-router-dom";
+import '../spinner.css';
 
 export function Data(props) {
     const dogUrl = useLoaderData();
@@ -7,9 +8,12 @@ export function Data(props) {
 
     if (navigation.state === 'loading') {
         return (
-            <h1>
-                Data is loading...
-            </h1>
+            <>
+                <h1>
+                    Data is loading...
+                </h1>
+                <div className="lds-dual-ring"></div>
+            </>
         )
     }
 

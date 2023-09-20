@@ -1,8 +1,8 @@
-# React + Vite
+# React + React Router + API test project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**_Simple project to learn how to use routing and work with API (fetch).
+All files are provided with comments. So that, several technologies were used:_**
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1) React - nothing special, just some components representing pages;
+2) React Router - connect all components and show the in separate web-pages;
+3) API - random.dog - to test out working with useNavigation() and useLoaderData();
